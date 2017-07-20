@@ -16,6 +16,10 @@
   margin-bottom: -20px;
 }
 
+.header span {
+  color: #a5a5a5;
+}
+
 .header ul {
   margin-right: 20px;
   float: right;
@@ -25,6 +29,7 @@
 .header li {
   text-decoration: none;
   display: inline-block;
+  padding: 10px;
 }
 
 .header img {
@@ -34,7 +39,7 @@
 
 .content {
   position: relative;
-  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 1px 3px 8px rgba(0,0,0,.2);
   min-height: 700px;
 }
 
